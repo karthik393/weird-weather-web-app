@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+       <div class="search">
+         <input type="text" placeholder="Enter City Name" spellcheck="false">
+         <button><img src="./images/search.png" alt="search here"></button>
+       </div>
+
+       <div class="error">
+         <p>invalid city name</p>
+       </div>
+
+        <div class="city-card">
+          <h2 class="city-name">City</h2>
+        </div>
+
+       <div class="weather">
+        <img src="images/rain.png" class="weather-icon" alt="it's raining">
+        <div class="temp">
+          <p class="temp-data">22°C</p>
+        </div>
+       </div>
+          
+       <div class="details">
+        <p class="details-para">Mostly Cloudy</p>
+      </div>
+
+      <div class="further-details">
+        <img src="images/humidity.png" alt="humidity information" class="hum-img">
+        <p class="humidity">Humidity</p>
+        <p class="hum-percentage">50%</p>
+       </div>
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #00feba77, #7869da);
+}
+
+.card{
+    width: 90%;
+    height: 160%;
+    min-width: 470px;
+    color: #fff;
+    margin: 0px auto 0;
+    border-radius: 20px;
+    padding: 40px 36px;
+    justify-content: start;
+    align-items: start;
+}
+
+.search{
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: 120px;
+    padding-left: 59px;
+    padding-right: 2px;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 35px;
+    height: 55px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+    height: 24px;
+}
+
+.weather img{
+    justify-content: start;
+    align-items: start;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.temp p{
+   font-size: 3.7vw;
+   padding-right: 30px;
+   margin-right: 100px;
+   position: relative;
+   right: 20px;
+   font-weight: bold;
+}
+
+.city-card{
+    height: 60px;
+    width: 45%;
+    background-color: rgb(72, 71, 71);
+    margin-left: 320px;
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-para{
+    padding-top: 27px;
+    padding-right: 90px;
+    font-size: 2.6vw;
+    font-weight: 600;
+}
+
+.further-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-right: 90px;
+}
+
+.hum-img{
+    padding-right: 45px;
+}
+
+.humidity{
+    font-size: 2.6vw;
+    padding-right: 40px;
+    font-weight: 450;
+}
+
+.hum-percentage{
+    font-size: 2.6vw;
+    padding-right: 0px;
+    font-weight: 450;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.error p{
+    font-size: 1.5vw;
+    margin-right: 200px;
+    padding-right: 200px;
+}
